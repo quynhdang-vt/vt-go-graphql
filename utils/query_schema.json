@@ -1,0 +1,66 @@
+{"query":
+"
+{
+  __schema {
+    types {
+      name
+      fields {
+        name
+        type {
+          name
+          kind
+          ofType {
+            name
+            kind
+            ofType {
+              name
+            }
+          }
+        }
+        args {
+          name
+          type {
+            name
+            kind
+            ofType {
+              name
+              kind
+              ofType {
+                name
+              }
+            }
+          }
+        }
+      }
+      kind
+      inputFields {
+        name
+        type {
+          name
+          kind
+          ofType {
+            name
+            kind
+            ofType {
+              name
+            }
+          }
+        }
+      }
+      interfaces {
+        name
+      }
+      possibleTypes {
+        name
+      }
+      enumValues {
+        name
+      }
+      interfaces {
+        name
+      }
+    }
+  }
+}
+  "
+}
