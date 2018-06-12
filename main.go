@@ -31,7 +31,7 @@ func main() {
 
 	testRecordingPtr := flag.Bool("testRecording", false, "Test retrieval recording")
 	recordingIdPtr := flag.String("recordingId", "21099164", "Recording id")
-	tokenPtr := flag.String("token", nil, "Token")
+	tokenPtr := flag.String("token", "", "Token")
 
 	flag.Parse()
 

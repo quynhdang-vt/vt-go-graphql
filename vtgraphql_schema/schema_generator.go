@@ -61,7 +61,8 @@ func processSchema(s *SchemaQueryResponse) *TypeMap {
 		RegularTypes: make(map[string]GraphQLType),
 		ScalarTypes:  make([]string, 0, 10),
 	}
-	for _, v := range s.Data.Schema.Types {
+	x:=s.Data.Schema.Types
+	for _, v := range x {
 		if strings.HasPrefix(v.Name, "_") {
 			continue
 		}

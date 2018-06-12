@@ -2,8 +2,9 @@
 set -x
 
 #TODO -- SET your own TOKEN and GraphQL Endpoint
-token=$DEV_TOKEN
-api_url=$DEV_GRAPHQL_ENDPOINT
+#token=$DEV_TOKEN
+#api_url=$DEV_GRAPHQL_ENDPOINT
+api_url=https://api.veritone.com/v3/graphql
 
 #api_url=http://localhost:3000/graphql
 
